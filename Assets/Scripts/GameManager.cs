@@ -31,10 +31,10 @@ public class GameManager : MonoBehaviour
                 // Create hex and assign properties
                 GameObject newHex = Instantiate(hexPrefab, new Vector3(xPos, yPos, 0), Quaternion.identity);
                 HexTile hex = newHex.GetComponent<HexTile>();
-                hex.hexName = $"Hex ({x},{y})";
-                hex.energyOutput = Random.Range(0f, 50f);
-                hex.waterAvailability = Random.Range(0f, 50f);
-                hex.metalRichness = Random.Range(0f, 50f);
+                // hex.hexName = $"Hex ({x},{y})";
+                // hex.energyOutput = Random.Range(0f, 50f);
+                // hex.waterAvailability = Random.Range(0f, 50f);
+                // hex.metalRichness = Random.Range(0f, 50f);
 
                 hexGrid[x, y] = hex;
             }

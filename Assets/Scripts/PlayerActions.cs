@@ -20,7 +20,7 @@ public class PlayerActions : MonoBehaviour
             HexTile clickedTile = hit.collider.GetComponent<HexTile>();
             if (clickedTile != null)
             {
-                clickedTile.Investigate();
+                // clickedTile.Investigate();
             }
         }
     }
